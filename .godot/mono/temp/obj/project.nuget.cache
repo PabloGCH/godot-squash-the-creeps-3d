@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "e/2dCVxaB3dxCS0DEZlPr9YeYQ9eIophlRYtrE5LJAqDm3Zy3Y2t0lHwYJvQbQW6YP30qaQbznr3SDkJLJ4bsg==",
+  "success": true,
+  "projectFilePath": "/home/pgch/stuff/gamedev/squash_the_creeps/Squash the Creeps (3D).csproj",
+  "expectedPackageFiles": [
+    "/home/pgch/.nuget/packages/godot.sourcegenerators/4.2.1/godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "/home/pgch/.nuget/packages/godotsharp/4.2.1/godotsharp.4.2.1.nupkg.sha512",
+    "/home/pgch/.nuget/packages/godotsharpeditor/4.2.1/godotsharpeditor.4.2.1.nupkg.sha512",
+    "/home/pgch/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/pgch/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
