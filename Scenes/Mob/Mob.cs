@@ -38,6 +38,11 @@ public partial class Mob : CharacterBody3D
         // so that it doesn't move directly towards the player.
         RotateY((float)GD.RandRange(-Mathf.Pi / 4.0, Mathf.Pi / 4.0));
 
+        // We set the z rotation to 0, so that the mob is not tilted.
+        Rotation = new Vector3(0, Rotation.Y, 0);
+
+        Position = new Vector3(startPosition.X, startPosition.Y + 1, startPosition.Z);
+
         // We calculate a random speed (integer).
         int randomSpeed = GD.RandRange(MinSpeed, MaxSpeed);
         // We calculate a forward velocity that represents the speed.

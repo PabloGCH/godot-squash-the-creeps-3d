@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710208555
+::res://::1710379613
 default_bus_layout.tres::AudioBusLayout::-1::1706984194::0::1::::<><>::
 default_env.tres::Environment::-1::1706984194::0::1::::<><>::
 icon.png::CompressedTexture2D::7769759451649612815::1606009720::1706984206::1::::<><>::
@@ -16,12 +16,12 @@ pupil.material::StandardMaterial3D::-1::1606514142::0::1::::<><>::
 LICENSE.txt::TextFile::-1::1605988452::0::1::::<><>::
 Montserrat-Medium.ttf::FontFile::534143527921013113::1323702000::1706984547::1::::<><>::
 ::res://Scenes/::1710120995
-::res://Scenes/Main/::1710126309
+::res://Scenes/Main/::1710297476
 Main.cs::CSharpScript::-1::1710126309::0::1::::<>Node<>::
-Main.tscn::PackedScene::7790909198299163380::1710126307::0::1::::<><>::uid://bejcu3pl7414n::::res://Scenes/Player/Player.tscn<>res://Scenes/Main/Main.cs<>uid://5xq6dy8xdney::::res://Scenes/Mob/Mob.tscn
-::res://Scenes/Mob/::1710124297
-Mob.cs::CSharpScript::-1::1710124171::0::1::::<>CharacterBody3D<>::
-Mob.tscn::PackedScene::2154173025155255804::1710124297::0::1::::<><>::uid://bh6oyqy4cq1vf::::res://Art/mob.glb<>res://Scenes/Mob/Mob.cs
-::res://Scenes/Player/::1710124322
-Player.cs::CSharpScript::-1::1710124322::0::1::::<>CharacterBody3D<>::
-Player.tscn::PackedScene::2685914102264992983::1710124297::0::1::::<><>::uid://cu70hitwibcnq::::res://Art/player.glb<>res://Scenes/Player/Player.cs
+Main.tscn::PackedScene::7790909198299163380::1710297476::0::1::::<><>::uid://bejcu3pl7414n::::res://Scenes/Player/Player.tscn<>res://Scenes/Main/Main.cs<>uid://5xq6dy8xdney::::res://Scenes/Mob/Mob.tscn
+::res://Scenes/Mob/::1710297476
+Mob.cs::CSharpScript::-1::1710210368::0::1::::<>CharacterBody3D<>::
+Mob.tscn::PackedScene::2154173025155255804::1710297476::0::1::::<><>::uid://bh6oyqy4cq1vf::::res://Art/mob.glb<>res://Scenes/Mob/Mob.cs
+::res://Scenes/Player/::1710297813
+Player.cs::CSharpScript::-1::1710297230::0::1::::<>CharacterBody3D<>::
+Player.tscn::PackedScene::2685914102264992983::1710297813::0::1::::<><>::uid://cu70hitwibcnq::::res://Art/player.glb<>res://Scenes/Player/Player.cs

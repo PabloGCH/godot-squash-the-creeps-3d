@@ -1,5 +1,6 @@
+res://Scenes/Player/Player.tscn
 res://Scenes/Main/Main.tscn
+res://Scenes/Mob/Mob.tscn
 res://Scenes/Main/Main.cs
 res://Scenes/Mob/Mob.cs
 res://Scenes/Player/Player.cs
-res://Scenes/Mob/Mob.tscn

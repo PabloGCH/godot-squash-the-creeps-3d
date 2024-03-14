@@ -17,12 +17,25 @@ public partial class Player : CharacterBody3D
 
     private Vector3 _targetVelocity = Vector3.Zero;
 
+    [Signal]
+    public delegate void HitEventHandler();
+
+    private void Die()
+    {
+        EmitSignal(SignalName.Hit);
+        QueueFree();
+    }
+
+    public void OnMobDetectorBodyEntered(Node body)
+    {
+        GD.Print("Player OnMobDetectorBodyEntered");
+        Die();
+    }
+
     public override void _PhysicsProcess(double delta)
     {
         // We create a local variable to store the input direction.
         var direction = Vector3.Zero;
-
-        GD.Print("Player _PhysicsProcess");
 
         // We check for each move input and update the direction accordingly.
         if (Input.IsActionPressed("move_right"))

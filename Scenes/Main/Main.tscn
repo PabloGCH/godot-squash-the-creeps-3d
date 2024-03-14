@@ -28,6 +28,7 @@ script = ExtResource("1_rf4dm")
 MobScene = ExtResource("2_jch8b")
 
 [node name="Player" parent="." instance=ExtResource("1_eyv11")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
 collision_mask = 6
 
 [node name="Ground" type="StaticBody3D" parent="."]
@@ -81,4 +82,5 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -13.09
 wait_time = 0.5
 autostart = true
 
-[connection signal="timeout" from="MobTimer" to="." method="OnMobTimerTimout"]
+[connection signal="Hit" from="Player" to="." method="OnPlayerHit"]
+[connection signal="timeout" from="MobTimer" to="." method="OnMobTimerTimeout"]

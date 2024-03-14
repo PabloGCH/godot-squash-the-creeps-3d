@@ -10,7 +10,7 @@ public partial class Main : Node
 
   private PathFollow3D _mobSpawnLocation;
 
-  public void OnMobTimerTimout()
+  public void OnMobTimerTimeout()
   {
     // Create a new instance of the Mob scene.
     Mob mob = MobScene.Instantiate<Mob>();
@@ -25,6 +25,10 @@ public partial class Main : Node
 
     // Spawn the mob by adding it to the Main scene.
     AddChild(mob);
+  }
+
+  public void OnPlayerHit() {
+    GetNode<Timer>("MobTimer").Stop();
   }
 
 	// Called when the node enters the scene tree for the first time.
